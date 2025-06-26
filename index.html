@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Mon Webfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Celestine - Webfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Bienvenue sur mon portfolio</h1>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="parcours.html">Parcours</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <p>Moi c’est Célestine, voici mon univers !</p>
   </header>
 
-  <main>
-    <p>Je suis [Ton Prénom], voici mon site personnel réalisé avec GitHub Pages !</p>
-  </main>
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Je suis passionnée par [insère ici ton domaine : design, dev, science, etc.]. Ce site présente mes projets, mon parcours et comment me contacter.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projets</h2>
+    <ul>
+      <li><strong>Projet 1 :</strong> Description rapide</li>
+      <li><strong>Projet 2 :</strong> Une autre idée</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Tu peux me joindre via <a href="mailto:tonmail@example.com">mon mail</a>.</p>
+  </section>
 
   <footer>
-    <p>&copy; 2025 - Mon Webfolio</p>
+    <p>© 2025 Célestine CSTL</p>
   </footer>
 </body>
 </html>
