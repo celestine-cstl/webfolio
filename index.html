@@ -1,67 +1,56 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Celestine - Webfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: #222;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1, h2 {
-      margin-top: 0;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #eee;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Bienvenue sur mon portfolio</h1>
-    <p>Moi c’est Célestine, voici mon univers !</p>
-  </header>
+    <nav>
+        <button>Accueil</button>
+        <button>Formations</button>
+        <button>Projets</button>
+    </nav>
 
-  <section id="about">
-    <h2>À propos</h2>
-    <p>Je suis passionnée par [insère ici ton domaine : design, dev, science, etc.]. Ce site présente mes projets, mon parcours et comment me contacter.</p>
-  </section>
+    <section id="accueil">
+        <img src="photo.jpg" alt="Photo de profil">
+        <h1>Nom Prénom</h1>
+        <p>Étudiante en ...</p>
+        <p><a href="https://linkedin.com/in/tonprofil" target="_blank">LinkedIn</a></p>
+        <p>Texte de présentation...</p>
+        <a href="cv.pdf" download><button>CV</button></a>
 
-  <section id="projects">
-    <h2>Projets</h2>
-    <ul>
-      <li><strong>Projet 1 :</strong> Description rapide</li>
-      <li><strong>Projet 2 :</strong> Une autre idée</li>
-    </ul>
-  </section>
+        <div class="contact">
+            <p>📍 Bordeaux, France</p>
+            <p>✉️ email@gmail.com</p>
+            <p>📞 01.01.01.01.01</p>
+        </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Tu peux me joindre via <a href="mailto:tonmail@example.com">mon mail</a>.</p>
-  </section>
+    <section id="formations">
+        <h2>Formations</h2>
+        <h3>Master IREF - ERDS (2024 - 2025)</h3>
+        <p>Université de Bordeaux - Data Science</p>
 
-  <footer>
-    <p>© 2025 Célestine CSTL</p>
-  </footer>
+        <h3>Licence Économie (2021 - 2024)</h3>
+        <p>Université de Tours</p>
+    </section>
+
+    <section id="projets">
+        <h2>Projets personnels et académiques</h2>
+
+        <div class="projet">
+            <img src="projet1.jpg" alt="Projet 1">
+            <h3>Nom projet 1</h3>
+            <p>Texte descriptif...</p>
+        </div>
+
+        <div class="projet">
+            <img src="projet2.jpg" alt="Projet 2">
+            <h3>Nom projet 2</h3>
+            <p>Texte descriptif...</p>
+        </div>
+    </section>
 </body>
 </html>
