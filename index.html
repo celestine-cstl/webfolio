@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Linking SwiperJS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Webfolio</title>
+</head>
+
+<body>
+  <div class="navbar-background"></div>
+  <header id="header">
+    <nav>
+      <ul>
+        <li id="Webfolio"><a href="#">Webfolio</a></li>
+        <li><a href="#Academic_background">Formations</a></li>
+        <li><a href="#Projects">Projets</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content"></main>
+    <section id="Introduction">
+      <div id="intro_container">
+        <div id="CV_photo">
+          <img src="img/id.jpeg" alt="Photo de profil">
+        </div>
+
+        <div id="intro_content">
+          <div id="identite">
+            <h1>COUSTILLAC Cêlestine</h1>
+            <div class="localisation">
+              <img src="logo/location-logo.png" alt="Localisation">
+              <p>Bordeaux, France</p>
+            </div>
+          </div>
+
+          <div id="presentation">
+            <p>
+              Étudiante en Master Ingénierie des Risques Économiques et Financiers (IREF) parcours Économie des Risques et Data Science (ERDS) à l'Université de Bordeaux, je suis <strong>à la recherche d'un stage de 4 à 6 mois à partir de mars 2026.</strong>
+            </p>
+            <p>
+              Passionnée par la data et la modélisation, je mets à profit mes compétences en machine learning, en modélisation et visualisation pour optimiser la prise de décision en environnement financier. Je maîtrise R, Python et VBA pour traiter et visualiser les données efficacement.
+            </p>
+          </div>
+
+          <div id="contact">
+            <a href="mailto:celestine.cstl@gmail.com">
+              <img src="logo/Email-logo.png" alt="Email" height="50">
+            </a>
+            <a href="https://www.linkedin.com/in/c%C3%AAlestine-cstl/" target="_blank">
+              <img src="logo/Linkedin-logo.png" alt="LinkedIn" height="50">
+            </a>
+            <a href="https://github.com/celestine-cstl" target="_blank">
+              <img src="logo/GitHub-logo.png" alt="GitHub" height="50">
+            </a>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+    </section>
+
+
+    <section id="Academic_background">
+      <h2>Formations</h2>
+
+      <div class="timeline">
+        <div class="timeline-blocks">
+          <div class="block">
+            <div class="header">
+              <h3>Master Ingénierie des Risques Économiques et Financiers (IREF) - Data Science</h3>
+              <p>2024 - 2026</p>
+            </div>
+            <p>Université de Bordeaux</p>
+            <ul>
+              <li>Mise en œuvre de modèles de <strong>machine learning</strong> (Logit model, KNN, Réseaux de neurone, Random Forest, K-means, CAH, ACP) pour l'analyse et la modélisation de données</li>
+              <li>Solides bases en <strong>mathématiques financières</strong> : martingales, processus stochastiques, modélisation des marchés aléatoires, ratios de performance (Sharpe, alpha, beta)</li>
+              <li>Analyse de <strong>séries temporelles</strong> (tests de RU)</li>
+              <li>Maîtrise des langages <strong>R</strong>, <strong>Python</strong> et <strong>VBA</strong> pour l'automatisation et le traitement de données</li>
+              <li>Compétences transversales : travaux collaboratifs, rédaction de rapports techniques, présentations orales</li>
+            </ul>
+            <button>Voir le programme</button>
+            <button>Certification de réussite</button>
+          </div>
+
+          <div class="block">
+            <div class="header">
+              <h3>Licence Économie de l'Entreprise</h3>
+              <p>2021 - 2024</p>
+            </div>
+            <p>Université de Tours</p>
+            <ul>
+              <li><strong>Fondamentaux en économie</strong> : microéconomie, macroéconomie, économie internationale</li>
+              <li><strong>Analyse de données</strong> : statistiques, probabilités, introduction aux modèles économétriques</li>
+              <li>Bases en comptabilité finance d'entreprise et stratégie d'entreprise, théorie des organisations</li>
+              <li>Maîtrise des langages <strong>R</strong>, <strong>VBA</strong>, <strong>LaTeX et TikZ</strong></li>
+              <li>Compétences transversales : travaux collaboratifs, rédaction de rapports</li>
+            </ul>
+            <button>Voir le programme</button>
+            <button>Certification de réussite</button>
+          </div>
+
+          <div class="block">
+            <div class="header">
+              <h3>Baccalauréat général (mention bien)</h3>
+              <p>2021</p>
+            </div>
+            <p>Lycée Jacques Monod</p>
+            <ul>
+              <li><strong>Spécialités :</strong> Mathématiques, Science Économique et Sociale et Science de la Vie et de la Terre</li>
+              <li><strong>Option :</strong> Droit et grands enjeux du monde contemporain</li>
+            </ul>
+            <button>Certification de réussite</button>
+          </div>
+        </div>
+      </div>
+      <script src="line.js"></script>
+    </section>
+
+    <section id="Projects">
+      <h2>Projets académiques et personnels</h2>
+
+      <div id="carousel">
+        <div class="container swiper">
+          <div class="project-wrapper">
+            <ul class="project-list swiper-wrapper">
+              <li class="project-item swiper-slide">
+                <div class="project">
+                  <img class="project-image" src="img/Networks-project.png" alt="Analyse de l'impact d'une politique sur un réseau de collaboration scientifique" height="200">
+                  <div class="badge-container">
+                    <p class="badge tools">Python</p>
+                    <p class="badge data">Network analysis</p>
+                    <p class="badge data">Community detection</p>
+                    <p class="badge data">Graph theory</p>
+                    <p class="badge data">Before/after network comparison</p>
+                    <p class="badge data">Visualization</p>
+                  </div>
+                  <p>Étude d'un réseau de collaboration scientifique au sein d'un cluster de chercheurs, observé avant et après un traitement simulant un choc. L'objectif : mesurer et expliquer l'évolution des liens entre individus et les dynamiques d'expansion ou de rétraction du réseau.</p>
+                  <div class="project-links">
+                    <div class="project-link rapport">
+                      <a href="chemin/vers/le-rapport.pdf" target="_blank" class="project-button">Voir le rapport</a>
+                    </div>
+                    <div class="project-link GitHub">
+                      <a href="chemin/vers/le-github.pdf" target="_blank" class="project-button">Voir le GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="project-item swiper-slide">
+                <div class="project">
+                  <img class="project-image" src="img/Scoring-project.png" alt="Détection du risque de gonorrhée à partir de données de dépistage" height="200">
+                  <div class="badge-container">
+                    <p class="badge tools">Python</p>
+                    <p class="badge data">Health data analysis</p>
+                    <p class="badge data">Classification models</p>
+                    <p class="badge data">Model evaluation</p>
+                    <p class="badge data">Visualization</p>
+                  </div>
+                  <p>Analyse d'un jeu de données médicales issu d'un programme de dépistage des infections sexuellement transmissibles. L'objectif : identifier les profils à risque et prédire un diagnostic positif à l'aide de modèles statistiques.</p>
+                  <div class="project-links">
+                    <div class="project-link rapport">
+                      <a href="chemin/vers/le-rapport.pdf" target="_blank" class="project-button">Voir le rapport</a>
+                    </div>
+                    <div class="project-link GitHub">
+                      <a href="chemin/vers/le-github.pdf" target="_blank" class="project-button">Voir le GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="project-item swiper-slide">
+                <div class="project">
+                  <img class="project-image" src="img/Innovation-project.png" alt="Analyse croisée : innovation technologique & besoin en data science" height="200">
+                  <div class="badge-container">
+                    <p class="badge tools">R</p>
+                    <p class="badge tools">GitHub</p>
+                    <p class="badge data">Big Data</p>
+                    <p class="badge data">Data cleaning</p>
+                    <p class="badge data">Descriptive statistics</p>
+                    <p class="badge data">Visualization</p>
+                  </div>
+                  <p>Analyse du lien entre innovation technologique (dépôts de brevets) et demande en compétences en data science. Travail réalisé à partir de bases de données massives et publication d'un mini-site web synthétisant les résultats.</p>
+                  <div class="project-links">
+                    <div class="project-link rapport">
+                      <a href="chemin/vers/le-rapport.pdf" target="_blank" class="project-button">Voir le rapport</a>
+                    </div>
+                    <div class="project-link GitHub">
+                      <a href="chemin/vers/le-github.pdf" target="_blank" class="project-button">Voir le GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="project-item swiper-slide">
+                <div class="project">
+                  <img class="project-image" src="img/Survey-project.png" alt="Analyse statistique de l'impact du choix d'orientation sur l'engagement académique">
+                  <div class="badge-container">
+                    <p class="badge tools">R</p>
+                    <p class="badge tools">Markdown</p>
+                    <p class="badge data">Exploratory Data Analysis</p>
+                    <p class="badge data">Descriptive statistics</p>
+                    <p class="badge data">Visualization</p>
+                  </div>
+                  <p>Projet d'analyse statistique réalisé à partir d'une base de données construite par sondage auprès d'un échantillon d'étudiants. L'objectif était de formuler une problématique sociétale pertinente, puis de l'explorer via R à l'aide de méthodes quantitatives simples et efficaces.</p>
+                  <div class="project-links">
+                    <div class="project-link rapport">
+                      <a href="chemin/vers/le-rapport.pdf" target="_blank" class="project-button">Voir le rapport</a>
+                    </div>
+                    <div class="project-link GitHub">
+                      <a href="chemin/vers/le-github.pdf" target="_blank" class="project-button">Voir le GitHub</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Linking SwiperJS script -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- Linking custom script -->
+      <script src="carousel.js"></script>
+    </section>
+    
+    <section id="Contact">
+      <h2>Me contacter</h2>
+
+      <div class="contact-row">
+        <div class="contact-box">
+          <img src="logo/Email-logo-blue.PNG" alt="E-mail logo">
+          <a href="mailto:celestine.cstl@gmail.com" ><i>celestine.cstl@gmail.com</i></a>
+        </div>
+        <div class="contact-box">
+          <img src="logo/phone-logo-blue.PNG" alt="Phone logo">
+          <a href="tel:+33651067979"><i>+33 6 51 06 79 79</i></a>
+        </div>
+        <div class="contact-box">
+          <img src="logo/Linkedin-logo-blue.PNG" alt="LinkedIn logo">
+          <a href="https://www.linkedin.com/in/c%C3%AAlestine-cstl/"><i>MyLinkedIn</i></a>
+        </div>
+      </div>
+      <br>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div id="copyright-and-icons">
+      <div id="copyright">
+        <span>2025 @CoustillacCêlestine</span>
+      </div>
+      <div id="icons">
+        <a href="mailto:celestine.cstl@gmail.com"><i>E-mail</i></a>
+        <a href="https://www.linkedin.com/in/c%C3%AAlestine-cstl/"><i>LinkedIn</i></a>
+        <a href="https://github.com/celestine-cstl/"><i>GitHub</i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
