@@ -259,7 +259,7 @@ header li:not(#Webfolio) {
 }
 .project-list .project-item .project {
   user-select: none;
-  width: 30em;
+  width: 25em;
   display: block;
   background: #f7f8f8;
   padding: 1em;
@@ -383,4 +383,5 @@ header li:not(#Webfolio) {
   font-style: normal;
   font-weight: bold;
 }
+
 
