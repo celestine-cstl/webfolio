@@ -202,7 +202,6 @@ header li:not(#Webfolio) {
   color: #666;
   margin: 0.5em 0;
 }
-/* Liste des contenus */
 .timeline ul {
   margin-left: 1.2em;
   padding-left: 1em;
@@ -211,13 +210,19 @@ header li:not(#Webfolio) {
   color: #303030;
   font-size: 0.9em;
 }
-.timeline button {
+.formation-links {
+  display: flex;
+  gap: 0.5em;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+.timeline .formation-button {
   display: inline-flex;
   gap: 0.4em;
   padding: 0.2em 0.6em;
   margin: 0.5em 0.3em 0 0;
   font-family: "Calibri", sans-serif;
-  font-size: 0.85em;
+  font-size: 0.9em;
   color: #16354D;
   border-radius: 0.5em;
   background: none;
@@ -225,7 +230,7 @@ header li:not(#Webfolio) {
   border: 1px solid #16354D;
   transition: transform 0.2s;
 }
-.timeline button:hover {
+.timeline .formation-button:hover {
   color: white;
   background: #16354D;
   transform: scale(1.1);
@@ -246,23 +251,24 @@ header li:not(#Webfolio) {
 }
 .project-wrapper {
   max-width: 95%;
+  gap: 0em; 
   margin: 0 1em;
-  padding: 2px 2px;
   overflow: hidden;
 }
 .swiper-slide {
   display: flex;
   justify-content: center;
+  padding: 0 0.5em;
 }
 .project-list .project-item {
   list-style: none;
 }
 .project-list .project-item .project {
   user-select: none;
-  width: 27em;
+  width: 30em;
   display: block;
   background: #f7f8f8;
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 1em;
   text-decoration: none;
   border: 0.2em solid transparent;
@@ -383,6 +389,3 @@ header li:not(#Webfolio) {
   font-style: normal;
   font-weight: bold;
 }
-
-
-
